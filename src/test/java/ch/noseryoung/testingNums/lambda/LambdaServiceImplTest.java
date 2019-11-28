@@ -41,7 +41,7 @@ class LambdaServiceImplTest {
     @Test
     public void generateFibonacci_requestMaxValue11_expect5Numbers() {
         List<Integer> collectionOfPrimes = lambdaService.generateFibonacci(11);
-        Assertions.assertThat(collectionOfPrimes).isNotEmpty().startsWith(1).endsWith(8);
+        Assertions.assertThat(collectionOfPrimes).isNotEmpty().startsWith(1).endsWith(13);
     }
 
     @Test
